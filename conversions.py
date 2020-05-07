@@ -19,7 +19,6 @@ def from_stones_to_kg(stones):
     else:
         return 0
 
-
 def from_pounds_to_kg(pounds):
     if pounds != 0:
         newweight = pounds * 0.453592
@@ -27,14 +26,12 @@ def from_pounds_to_kg(pounds):
     else:
         return 0
 
-
 def from_kg_to_stones(kg):
     if kg != 0:
         newweight = kg / 6.35029
         return newweight
     else:
         return 0
-
 
 def from_kg_to_pounds(kg):
     if kg != 0:
@@ -44,6 +41,3 @@ def from_kg_to_pounds(kg):
         return 0
 
 initial()
-
-
-
