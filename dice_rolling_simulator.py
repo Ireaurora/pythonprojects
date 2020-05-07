@@ -13,6 +13,5 @@ def start_question():
         return roll_the_dice()
     else:
         return "Okay"
-
-
+    
 print(start_question())
