@@ -9,7 +9,6 @@ def testingprimes(x):
             if x % i == 0:
                 return False
             return True
-
         else:
             return False
 
@@ -22,7 +21,6 @@ def testingmoreprimes(x):
             if x % i == 0:
                 return False
             return True
-
         else:
             return False
 
@@ -67,19 +65,3 @@ def savingprimes(x):
 def primeslist(x):
     factors.add(x)
     return factors
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
