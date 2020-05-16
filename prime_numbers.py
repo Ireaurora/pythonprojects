@@ -1,8 +1,8 @@
 primes = [2, 3, 5, 7]
 factors = []
 #Challenge 1
-#The Basics
 
+#The Basics
 def testingprimes(x):
     if x > 1:
         for i in range(2, 49):
@@ -12,7 +12,7 @@ def testingprimes(x):
         else:
             return False
 
-print(testingprimes(332893298))
+print(testingprimes(11))
 
 #The advanced bit
 def testingmoreprimes(x):
@@ -41,7 +41,7 @@ def newlist(x):
     primes.append(x)
     return primes
 
-print(savingprimes(3298091803288838238291))
+print(savingprimes(11))
 
 #The olympian challenge
 
