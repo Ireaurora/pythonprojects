@@ -1,6 +1,6 @@
-# These are python projects
+# Python Projects
 
-- Conversion between units
+- Conversion between units 
 
 - Dice roller
 
